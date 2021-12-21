@@ -1,6 +1,6 @@
 {
-    "name": "horde/stringprep",
-    "description": "Internationalized strings preparation library",
+    "name": "bytestream/horde-stringprep",
+    "description": "Horde internationalized strings preparation library",
     "type": "library",
     "homepage": "https://www.horde.org",
     "license": "LGPL-3.0",
@@ -11,22 +11,10 @@
             "role": "lead"
         }
     ],
-    "version": "1.0.5",
-    "time": "2017-11-11",
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "https://pear.horde.org"
-        }
-    ],
     "require": {
-        "php": "^5.3 || ^7",
+        "php": "^7.4 || ^8.0",
         "ext-iconv": "*",
         "ext-intl": "*"
-    },
-    "replace": {
-        "pear-pear.horde.org/Horde_Stringprep": "1.*",
-        "pear-horde/Horde_Stringprep": "1.*"
     },
     "autoload": {
         "psr-0": {
